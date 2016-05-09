@@ -7,7 +7,7 @@ pkgdesc='Python implementation of the PageKite remote front-end protocols.'
 arch=('any')
 url='http://pagekite.org'
 license=('GPL')
-depends=('python2' 'python2-setuptools' 'python2-socksipychain')
+depends=('python2' 'python2-setuptools' 'python2-socksipychain>=2.0.15')
 provides=('pagekite')
 conflicts=('python2-pagekite')
 options=(!emptydirs zipman)
